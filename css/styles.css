@@ -403,9 +403,11 @@ a {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.logo-text {
+.footer-container {
     display: flex;
     align-items: baseline;
+}
+.logo-text {
     margin-right: 120px
 }
 .studio-footer {
@@ -420,6 +422,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 16px;
 }
 .social-media {
     font-weight: 500;
@@ -427,7 +430,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
 }
 .footer-icons {
     display: flex;
