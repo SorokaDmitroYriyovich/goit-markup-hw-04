@@ -213,6 +213,16 @@ a {
     width: calc((100% - 3 * 24px) / 4);
     margin-bottom: 8px;
 }
+.features-list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .features-text {
     background-color: #FFFFFF;
     color: var(--slate, #434455);
