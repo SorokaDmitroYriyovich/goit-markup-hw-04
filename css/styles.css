@@ -20,10 +20,7 @@ a {
                 0px 1px 1px rgba(46, 47, 66, 0.16), 
                 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-::after.top-line {
-    content: content;
-    position: absolute;
-}
+
 .container {
 
     width: 1158px;
@@ -76,15 +73,17 @@ a {
     padding: 24px 0;
     display: block;
 }
-::after {
-    content: ;
+.link-nav::after {
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
-    height: 4px;
+    display: block;
+    width: 100%;
+    height:4px ;
+    border-radius:2px ;
     background-color: #404bbf;
-    border-radius: 2px;
-}
+    }
 .menu-nav :nth-child(1) {
     position: relative;
     color: #404bbf;
@@ -370,7 +369,7 @@ a {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-:hover.our-portfolio-list {
+.our-portfolio-list:hover .project-cards-content {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
                 0px 1px 1px rgba(46, 47, 66, 0.16), 
                 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -437,6 +436,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-top: 0;
     margin-bottom: 16px;
 }
 .footer-icons {
