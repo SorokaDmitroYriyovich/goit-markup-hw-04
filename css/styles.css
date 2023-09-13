@@ -21,7 +21,7 @@ a {
                 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 ::after.top-line {
-    content: ;
+    content: content;
     position: absolute;
 }
 .container {
@@ -324,7 +324,6 @@ a {
 }
 :hover.traling-icons {
     background-color: #404bbf;
-
 }
 :focus.traling-icons {
     background-color: #404bbf;
@@ -369,6 +368,7 @@ a {
     margin-bottom: 8px;
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 :hover.our-portfolio-list {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
