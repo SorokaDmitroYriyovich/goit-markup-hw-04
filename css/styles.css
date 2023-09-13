@@ -68,7 +68,8 @@ a {
     gap: 40px;
 }
 .link-nav {
-    color: #2E2F42;
+    position: relative;
+    color: #404bbf;
     text-decoration: none;
     padding: 24px 0;
     display: block;
